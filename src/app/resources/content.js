@@ -131,7 +131,7 @@ const about = {
 
   sidework: {
     display: true, // set to false to hide this section
-    title: "Side Projects",
+    title: "Personal Projects",
     experiences: [
       {
         company: "CVolution GmbH", 
