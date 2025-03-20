@@ -8,6 +8,7 @@ import { home, about, person, newsletter } from "@/app/resources/content";
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export async function generateMetadata() {
   const title = home.title;
@@ -116,6 +117,7 @@ export default function Home() {
       <Projects range={[2]} />
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
       <Analytics/>
+      <SpeedInsights/>
     </Column>
   );
 }
