@@ -74,7 +74,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/jan-eggenberger-orh0hu/15min",
   },
   intro: {
     display: true,
