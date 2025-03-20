@@ -55,7 +55,7 @@ const home = {
   headline: <>Software Engineer</>,
   subline: (
     <>
-      I'm Jan, a software engineer at <InlineCode>Federer Informatik AG</InlineCode>, where I craft intuitive
+      I'm Jan, a Software Engineer at <InlineCode>Federer Informatik AG</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
