@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Software engineer</>,
+  headline: <>Software Engineer</>,
   subline: (
     <>
       I'm Jan, a software engineer at <InlineCode>Federer Informatik AG</InlineCode>, where I craft intuitive
