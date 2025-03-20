@@ -349,17 +349,17 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img09.jpg",
+      src: "/images/gallery/img09.JPG",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img10.jpg",
+      src: "/images/gallery/img10.JPG",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img11.jpg",
+      src: "/images/gallery/img11.JPG",
       alt: "image",
       orientation: "horizontal",
     },
