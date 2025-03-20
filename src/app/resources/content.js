@@ -128,6 +128,67 @@ const about = {
       },
     ],
   },
+
+  sidework: {
+    display: true, // set to false to hide this section
+    title: "Side Projects",
+    experiences: [
+      {
+        company: "CVolution GmbH", 
+        timeframe: "2025 - Present",
+        role: "Software Engineer",
+        achievements: [
+          <>
+            Building web applications with Next.js, Supabase and Stripe.
+          </>,
+          <>
+            Creating the best user experience possible.
+          </>,
+          <>
+            Developing a unique and modern design.
+          </>,
+        ],
+        images: [
+        ],
+      },
+      {
+        company: "LE NOIR",
+        timeframe: "2024 - Present",
+        role: "Web Developer",
+        achievements: [
+          <>
+            Developing websites for small businesses.
+          </>,
+          <>
+            Making your online presence stand out.
+          </>,
+          <>
+            Creating a unique user experience for your customers.
+          </>,
+        ],
+        images: [
+        ],
+      },
+      {
+        company: "JXN.VISUALZZ",
+        timeframe: "2022 - Present",
+        role: "Photographer",
+        achievements: [
+          <>
+            Capturing the most valuable moments of your life.
+          </>,
+          <>
+            Documenting your wedding day in a unique way.
+          </>,
+          <>
+            Turning your events into memories.
+          </>,
+        ],
+        images: [
+        ],
+      },
+    ],
+  },
   studies: {
     display: false, // set to false to hide this section
     title: "Studies",
