@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Sofwarte Engineer",
+  role: "Software Engineer & Photographer",
   avatar: "/images/avatar.jpg",
   location: "Europe/Zurich", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["German", "English"], // optional: Leave the array empty if you don't want to display languages
@@ -279,6 +279,19 @@ const about = {
           //   height: 9,
           // },
         ],
+      },
+      {
+        title: "Lightroom",
+        description: <>Editing photos and creating presets</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
       }
     ],
   },
@@ -325,11 +338,6 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-    // {
-    //   src: "/images/gallery/img05.jpg",
-    //   alt: "image",
-    //   orientation: "vertical",
-    // },
     {
       src: "/images/gallery/img06.jpg",
       alt: "image",
