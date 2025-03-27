@@ -66,17 +66,17 @@ export default function Home() {
       />
       <Column fillWidth paddingY="l" gap="m">
         <Column maxWidth="s">
-          <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
+          <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m" speed="fast">
             <Heading wrap="balance" variant="display-strong-l">
               {home.headline}
             </Heading>
           </RevealFx>
-          <RevealFx translateY="8" delay={0.2} fillWidth horizontal="start" paddingBottom="m">
+          <RevealFx translateY="8" delay={0} fillWidth horizontal="start" paddingBottom="m" speed="fast">
             <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl">
               {home.subline}
             </Text>
           </RevealFx>
-          <RevealFx translateY="12" delay={0.4} horizontal="start">
+          <RevealFx translateY="12" delay={0} horizontal="start" speed="fast">
             <Button
               id="about"
               data-border="rounded"
@@ -99,22 +99,26 @@ export default function Home() {
           </RevealFx>
         </Column>
       </Column>
-      <RevealFx translateY="16" delay={0.6}>
+      <RevealFx translateY="16" delay={0} speed="fast">
         <Projects range={[1, 1]} />
       </RevealFx>
-      {routes["/blog"] && (
-        <Flex fillWidth gap="24" mobileDirection="column">
-          <Flex flex={1} paddingLeft="l">
-            <Heading as="h2" variant="display-strong-xs" wrap="balance">
-              Latest from the blog
-            </Heading>
+      <RevealFx translateY="16" delay={0} speed="fast">
+        <Projects range={[2, 2]} />
+      </RevealFx>
+      <RevealFx translateY="8" delay={0} fillWidth horizontal="start" paddingBottom="m" speed="fast">
+        {routes["/blog"] && (
+          <Flex fillWidth gap="24" mobileDirection="column">
+            <Flex flex={1} paddingLeft="l">
+              <Heading as="h2" variant="display-strong-xs" wrap="balance">
+                Latest from the blog
+              </Heading>
+            </Flex>
+            <Flex flex={3} paddingX="20">
+              <Posts range={[1, 2]} columns="2" />
+            </Flex>
           </Flex>
-          <Flex flex={3} paddingX="20">
-            <Posts range={[1, 2]} columns="2" />
-          </Flex>
-        </Flex>
-      )}
-      <Projects range={[2]} />
+        )}
+      </RevealFx>
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
       <Analytics/>
       <SpeedInsights/>

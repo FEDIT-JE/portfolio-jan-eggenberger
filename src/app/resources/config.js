@@ -1,10 +1,11 @@
-const baseURL = "demo.magic-portfolio.com";
+const baseURL = "jan-eggenberger.com";
 
 const routes = {
   "/": true,
   "/about": true,
   "/work": true,
-  "/blog": false,
+  "/blog": true,
+  "/contact": false,
   "/gallery": true,
 };
 

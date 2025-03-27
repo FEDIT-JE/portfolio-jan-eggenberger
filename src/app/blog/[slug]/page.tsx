@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { CustomMDX } from "@/components/mdx";
 import { getPosts } from "@/app/utils/utils";
-import { AvatarGroup, Button, Column, Heading, Row, Text } from "@/once-ui/components";
+import { AvatarGroup, Button, Column, Heading, Row, SmartImage, Text } from "@/once-ui/components";
 import { baseURL } from "@/app/resources";
 import { person } from "@/app/resources/content";
 import { formatDate } from "@/app/utils/formatDate";
@@ -106,6 +106,7 @@ export default function Blog({ params }: BlogParams) {
         <Text variant="body-default-s" onBackground="neutral-weak">
           {post.metadata.publishedAt && formatDate(post.metadata.publishedAt)}
         </Text>
+                
       </Row>
       <Column as="article" fillWidth>
         <CustomMDX source={post.content} />

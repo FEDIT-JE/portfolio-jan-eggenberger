@@ -299,7 +299,7 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about engineering and tech...",
+  title: "Building, Learning, and Growing in Tech & Engineering",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
