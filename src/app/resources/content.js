@@ -133,10 +133,31 @@ const about = {
     display: true, // set to false to hide this section
     title: "Personal Projects",
     experiences: [
+ {
+        company: "ZapTap.ch",
+        timeframe: "2025 - Present",
+        role: "Lead Developer & Designer",
+        achievements: [
+          <>
+            Designed and developed a conversion-focused landing page for a Swiss fintech startup enabling mobile card payments for small businesses.
+          </>,
+          <>
+            Led the full-stack development and collaborated with founders to refine product messaging and brand identity.
+          </>,
+          <>
+            Implemented analytics, conversion tracking, and custom SVG illustrations for a modern, mobile-first experience.
+          </>,
+          <>
+            Increased conversion rate by 35% after launch and helped secure partnerships with Swiss payment providers.
+          </>,
+        ],
+        images: [
+        ],
+      },
       {
         company: "CVolution GmbH", 
         timeframe: "2025 - Present",
-        role: "Software Engineer",
+        role: "CTO | Software Engineer",
         achievements: [
           <>
             Building web applications with Next.js, Supabase and Stripe.
@@ -154,7 +175,7 @@ const about = {
       {
         company: "LE NOIR",
         timeframe: "2024 - Present",
-        role: "Web Developer",
+        role: "Founder | Web Developer",
         achievements: [
           <>
             Developing websites for small businesses.

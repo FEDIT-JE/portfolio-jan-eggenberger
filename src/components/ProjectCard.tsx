@@ -38,6 +38,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           src: image,
           alt: title,
         }))}
+        style={{ border: "none" }}
       />
       <Flex
         mobileDirection="column"
