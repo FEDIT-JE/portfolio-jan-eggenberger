@@ -12,13 +12,15 @@
     "@floating-ui/react-dom": "^2.1.1",
     "@mdx-js/loader": "^3.1.0",
     "@next/mdx": "^14.2.16",
+    "@tailwindcss/postcss": "^4.2.2",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
+    "autoprefixer": "^10.4.27",
     "classnames": "^2.5.1",
     "cookie": "^1.0.1",
     "gray-matter": "^4.0.3",
-    "next": "14.2.35",
-    "next-mdx-remote": "^5.0.0",
+    "next": "^16.2.0",
+    "next-mdx-remote": "^6.0.0",
     "postcss": "^8.4.39",
     "postcss-preset-env": "^9.5.15",
     "prismjs": "^1.29.0",
@@ -29,7 +31,8 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sass": "^1.77.6",
-    "sharp": "^0.33.4"
+    "sharp": "^0.33.4",
+    "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
