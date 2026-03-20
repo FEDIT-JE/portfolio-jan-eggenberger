@@ -111,12 +111,24 @@ export const translations = {
       ],
     },
 
-    // CTA
+    // CTA / Contact
     cta: {
       label: "Zusammenarbeiten",
       heading: "Lass uns gemeinsam etwas Zuverlässiges bauen.",
       cta1: "Projekt starten",
       cta2: "Kontakt aufnehmen",
+      form: {
+        name: "Name",
+        email: "E-Mail",
+        subject: "Betreff",
+        subjectPlaceholder: "Worum geht es?",
+        message: "Nachricht",
+        messagePlaceholder: "Erzähl mir von deinem Projekt...",
+        send: "Nachricht senden",
+        sending: "Wird gesendet...",
+        success: "Nachricht gesendet! Ich melde mich bald.",
+        error: "Etwas ist schiefgelaufen. Bitte versuch es erneut.",
+      },
     },
 
     // Footer
@@ -345,6 +357,18 @@ export const translations = {
       heading: "Let's build something reliable together.",
       cta1: "Start a Project",
       cta2: "Get in touch",
+      form: {
+        name: "Name",
+        email: "Email",
+        subject: "Subject",
+        subjectPlaceholder: "What's it about?",
+        message: "Message",
+        messagePlaceholder: "Tell me about your project...",
+        send: "Send Message",
+        sending: "Sending...",
+        success: "Message sent! I'll get back to you soon.",
+        error: "Something went wrong. Please try again.",
+      },
     },
 
     footer: {
