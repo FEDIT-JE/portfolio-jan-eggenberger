@@ -18,13 +18,13 @@ const sourceCodePro = Source_Code_Pro({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jan-eggenberger.com"),
-  title: "Jan Eggenberger Software Engineer",
+  title: "Jan Eggenberger",
   description:
-    "Software Engineer specializing in .NET backends, SQL databases, and Next.js interfaces. Building digital products with precision.",
+    "Software engineer from Switzerland crafting clean .NET systems by day and full-stack products with Next.js and Supabase by night.",
   openGraph: {
-    title: "Jan Eggenberger Software Engineer",
+    title: "Jan Eggenberger",
     description:
-      "Software Engineer specializing in .NET backends, SQL databases, and Next.js interfaces.",
+      "Software engineer from Switzerland crafting clean .NET systems by day and full-stack products with Next.js and Supabase by night.",
     url: "https://jan-eggenberger.com",
     siteName: "Jan Eggenberger",
     locale: "en_US",
