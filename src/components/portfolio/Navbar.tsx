@@ -37,7 +37,7 @@ export function Navbar() {
         className={`pointer-events-auto w-full flex items-center justify-between px-5 rounded-2xl border backdrop-blur-xl transition-all duration-300 ease-out ${scrolled ? "h-18" : "h-14"}`}
       >
         {/* Wordmark */}
-        <Link href="/" className="text-sm font-medium text-white/90 hover:text-white transition-colors shrink-0">
+        <Link href="/#" className="text-sm font-medium text-white/90 hover:text-white transition-colors shrink-0">
           Jan Eggenberger
         </Link>
 
